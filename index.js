@@ -1,9 +1,5 @@
-const arr = [];
-let counter = 0;
 
-while(counter < 10) {
-  arr.push('hello ' + counter);
-  counter++;
+const button = document.querySelector('button');
+button.onclick = function() {
+  alert('hello world');
 }
-
-console.log(arr);
